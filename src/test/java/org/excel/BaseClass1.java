@@ -18,7 +18,7 @@ public class BaseClass1 extends DemoQa{
 	//rightclick(fstnm);
 	WebElement textemail = driver.findElement(By.id("email"));
 
-	fill(textemail, getData(1, 2));
+	fill(textemail, getData(1, 1));
 	WebElement mobilenm = driver.findElement(By.id("mobile"));
 
 	fill(mobilenm, getData(1, 2));
